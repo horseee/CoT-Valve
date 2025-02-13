@@ -14,9 +14,9 @@
 </div>
 <br>
 
-> [Xinyin Ma](https://horseee.github.io/)\*, [Guangnian Wan]()\*, [Runpeng Yu](), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
+> [Xinyin Ma](https://horseee.github.io/)\*, [Guangnian Wan](https://github.com/bigglesworthnotacat)\*, [Runpeng Yu](https://yu-rp.github.io), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
 > [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
-> 🥯[[Arxiv]](https://arxiv.org/abs/)  🎄[[Dataset]](https://huggingface.co/collections/horseee/cot-valve-67ae3d0b2f6bddd288504839)   🤖[[Models]]() (coming soon)
+> 🥯[[Arxiv]](https://arxiv.org/abs/)  🎄[[Dataset]](https://huggingface.co/collections/horseee/cot-valve-67ae3d0b2f6bddd288504839)   🤖[[Models]]() (coming soon)   
 > \* Equal Contribution
 
 ### Introduction
@@ -34,12 +34,12 @@ We propose a new tuning and inference strategy named CoT-Valve, designed to allo
 
 ### 🤗Datasets
 
-We release the following datasets on [Huggingface](): 
+We release the following datasets on [Huggingface](https://huggingface.co/collections/horseee/cot-valve-67ae3d0b2f6bddd288504839): 
 
-| Dataset Name | Link | 
-| --- | ---- | 
-| MixChain-Z-GSM8K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-GSM8K) | 
-| MixChain-Z-PRM12K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-PRM12K)| 
+| Dataset Name | Link | Description |
+| --- | ---- | ---- |
+| MixChain-Z-GSM8K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-GSM8K) | MixChain-Z-GSM8K is a dataset containing 6,863 samples, with each sample containing five different solutions.|
+| MixChain-Z-PRM12K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-PRM12K)| MixChain-Z-PRM12K is a dataset containing 12,000 samples (unfiltered), with each sample containing five different solutions |
 
 
 ### Training Code
