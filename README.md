@@ -1,5 +1,5 @@
 <div align="center">
-<h1>CoT-Valve: Length-Compressible Chain-of-Thought Tuning</h1>
+<h2>CoT-Valve: Length-Compressible Chain-of-Thought Tuning</h2>
   <div align="center">
 </div>
 <h3><h3>
@@ -40,7 +40,7 @@ We release the following datasets on [Huggingface](https://huggingface.co/collec
 | --- | ---- | ---- |
 | MixChain-Z-GSM8K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-GSM8K) | MixChain-Z-GSM8K is a dataset containing 6,863 samples, with each sample containing five different solutions.|
 | MixChain-Z-PRM12K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-PRM12K)| MixChain-Z-PRM12K is a dataset containing 12,000 samples (unfiltered), with each sample containing five different solutions |
-
+| MixChain-C-LIMO | [Link](https://huggingface.co/datasets/horseee/MixChain-C-LIMO) | MixChain-C-LIMO contains two distinct solutions for each question from the LIMO dataset. These solutions vary in the number of samples and the average length of their CoT. |
 
 ### Training Code
 To be released
