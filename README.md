@@ -16,8 +16,16 @@
 
 > [Xinyin Ma](https://horseee.github.io/)\*, [Guangnian Wan]()\*, [Runpeng Yu](), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
 > [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
-> 🥯[[Arxiv]](https://arxiv.org/abs/)  🎄[[Dataset]]()   
+> 🥯[[Arxiv]](https://arxiv.org/abs/)  🎄[[Dataset]](https://huggingface.co/collections/horseee/cot-valve-67ae3d0b2f6bddd288504839)   🤖[[Models]]() (coming soon)
 > \* Equal Contribution
+
+### Introduction
+We propose a new tuning and inference strategy named CoT-Valve, designed to allow models to generate reasoning chains of varying lengths. 
+* We propose to identify a direction in the parameter space that, when manipulated, can effectively control the length of generated CoT. 
+* We construct datasets with chains from long to short for the same questions and explore two enhanced strategies for CoT-Valve: (1) a precise length-compressible CoT tuning method, and (2) a progressive chain length compression approach. 
+* CoT-Valve successfully enables controllability and compressibility of the chain and shows better performance than the prompt-based control. 
+* We applied this method to QwQ-32B-Preview, reducing reasoning chains on GSM8K from 741 to 225 tokens with a minor performance drop (95.07% to 94.92%) and on AIME from 6827 to 4629 tokens, with only one additional incorrect answer.
+
 
 ### TODO
 - [x] Release the dataset
@@ -28,10 +36,10 @@
 
 We release the following datasets on [Huggingface](): 
 
-| Dataset Name | Link |
+| Dataset Name | Link | 
 | --- | ---- | 
-| MixChain-Z-GSM8K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-GSM8K) |
-| MixChain-Z-PRM12K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-PRM12K)|
+| MixChain-Z-GSM8K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-GSM8K) | 
+| MixChain-Z-PRM12K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-PRM12K)| 
 
 
 ### Training Code
