@@ -20,16 +20,23 @@
 > \* Equal Contribution
 
 ### TODO
-- [ ] Release the dataset
+- [x] Release the dataset
 - [ ] Release the model
 - [ ] Release the trainng code
 
-### Datasets
+### 🤗Datasets
+
+We release the following datasets on [Huggingface](): 
+
+| Dataset Name | Link |
+| --- | ---- | 
+| MixChain-Z-GSM8K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-GSM8K) |
+| MixChain-Z-PRM12K | [Link](https://huggingface.co/datasets/horseee/MixChain-Z-PRM12K)|
 
 
 ### Training Code
-
+To be released
 
 ### Models
-
+To be released
 
