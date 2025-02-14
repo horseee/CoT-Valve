@@ -16,7 +16,7 @@
 
 > [Xinyin Ma](https://horseee.github.io/)\*, [Guangnian Wan](https://github.com/bigglesworthnotacat)\*, [Runpeng Yu](https://yu-rp.github.io), [Gongfan Fang](https://fangggf.github.io/), [Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)   
 > [Learning and Vision Lab](http://lv-nus.org/), National University of Singapore  
-> 🥯[[Arxiv]](https://arxiv.org/abs/)  🎄[[Dataset]](https://huggingface.co/collections/horseee/cot-valve-67ae3d0b2f6bddd288504839)   🤖[[Models]]() (coming soon)   
+> 🥯[[Arxiv]](https://arxiv.org/abs/2502.09601)  🎄[[Dataset]](https://huggingface.co/collections/horseee/cot-valve-67ae3d0b2f6bddd288504839)   🤖[[Models]]() (coming soon)   
 > \* Equal Contribution
 
 ### Introduction
