@@ -30,7 +30,7 @@ We propose a new tuning and inference strategy named CoT-Valve, designed to allo
 ### TODO
 - [x] Release the dataset
 - [ ] Release the model
-- [ ] Release the trainng code
+- [ ] Release the training code
 
 ### 🤗Datasets
 
